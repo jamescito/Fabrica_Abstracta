@@ -5,13 +5,13 @@ public class FordFocusFactory implements CocheFactory{
     @Override
     public Motor crearMotor() {
         // TODO Auto-generated method stub
-        return null;
+        return new FocusMotor();
     }
 
     @Override
     public Carroceria crearCarroceria() {
         // TODO Auto-generated method stub
-        return null;
+        return new FocusCarroceria();
     }
 
 
