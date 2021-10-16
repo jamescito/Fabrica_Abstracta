@@ -14,6 +14,4 @@ public class FordFocusFactory implements CocheFactory{
         return new FocusCarroceria();
     }
 
-
-
 }
